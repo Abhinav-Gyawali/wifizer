@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">WiFiZER</string>
+    <string name="question_button">Help or Information</string>
+    <string name="add_network">Add Network</string>
+    <string name="wifi_high">High Quality WiFi</string>
+    <string name="share">Share</string>
+	<string name="close_dialog">Close</string>
+
+    <string-array name="authentication_types">
+        <item>WEP (Wired Equivalent Privacy)</item>
+		<item>WPA (Wi-Fi Protected Access)</item>
+		<item>WPA2 (Wi-Fi Protected Access II)</item>
+		<item>WPA3 (Wi-Fi Protected Access III)</item>
+		<item>Open Network</item>
+		<item>WPA2-Enterprise</item>
+		<item>WPA3-Enterprise</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Primary colors -->
+    <color name="backgroundColor">#101a23</color>
+    <color name="headerBackground">#101a23</color>
+    <color name="itemBackground">#101a23</color>
+    <color name="iconBackground">#223749</color>
+
+    <!-- Text colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="descriptionColor">#90b0cb</color>
+
+    <!-- Additional colors if needed -->
+    <color name="round_bg_color">#223749</color> <!-- Dark Blue/Grey -->
+
+
+    <!-- Border color for the round drawable -->
+    <color name="round_bg_border_color">#101a23</color>
+
+</resources>

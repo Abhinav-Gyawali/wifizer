@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_round"
+    android:padding="16dp" >
+
+    <!-- Close icon at the top right -->
+	<TextView
+		android:id="@+id/header"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Trying passwords"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="10dp"
+		android:textSize="20sp"
+		android:textStyle="bold"
+		/>
+
+    <ImageView
+        android:id="@+id/close_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/close_dialog"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <!-- ProgressBar at the center -->
+
+    <ProgressBar
+        android:id="@+id/loading_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+		android:layout_below="@id/header"
+        android:indeterminate="true" 
+		android:padding="20dp"/>
+
+    <!-- Data field below the ProgressBar -->
+
+    <TextView
+        android:id="@+id/data_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loading_spinner"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Loading passes..."
+        android:textSize="16sp"
+		android:textStyle="bold" />
+
+    <!-- Progress Bar like x/y -->
+
+    <TextView
+        android:id="@+id/progress_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/data_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="0/0"
+        android:textSize="14sp" />
+
+</RelativeLayout>

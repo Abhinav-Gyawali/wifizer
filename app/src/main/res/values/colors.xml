@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Primary colors -->
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="headerBackground">#F0F0F0</color>
+    <color name="itemBackground">#E0E0E0</color>
+    <color name="iconBackground">#B0B0B0</color>
+	<color name="buttonColor">#0096FF</color>
+    <!-- Text colors -->
+    <color name="white">#000000</color>
+    <color name="descriptionColor">#606060</color>
+
+    <!-- Additional colors if needed -->
+    <color name="round_bg_color">#B0B0B0</color> <!-- Light Grey -->
+    <color name="round_bg_border_color">#E0E0E0</color>
+
+</resources>

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Customize your theme here with colors defined in colors.xml -->
+        <item name="colorPrimary">@color/backgroundColor</item>
+        <item name="colorPrimaryVariant">@color/backgroundColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/headerBackground</item>
+        <item name="colorSecondaryVariant">@color/headerBackground</item>
+        <item name="colorOnSecondary">@color/white</item>
+      
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorSurface">@color/backgroundColor</item>
+        <item name="colorOnSurface">@color/white</item>
+    </style>
+
+    
+
+</resources>
